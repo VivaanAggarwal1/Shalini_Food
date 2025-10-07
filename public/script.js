@@ -1,5 +1,3 @@
-alert("JS LOADED"); // remove after testing
-
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("year").textContent = new Date().getFullYear();
 
@@ -74,3 +72,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
   renderCart();
 });
+

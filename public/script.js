@@ -1,3 +1,4 @@
+alert("JS LOADED");
 // Year
 document.getElementById("year").textContent = new Date().getFullYear();
 
@@ -74,3 +75,4 @@ document.querySelectorAll(".add").forEach(btn=>{
 });
 
 renderCart();
+
